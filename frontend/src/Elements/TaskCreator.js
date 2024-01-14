@@ -11,7 +11,7 @@ export default function TaskCreator({getAllTasks}) {
         e.preventDefault();
     
         try {
-          const res = await axios.post(`http://localhost:8000/createTask`, {
+          const res = await axios.post(`https://mern-to-do-list-9xqh.onrender.com/createTask`, {
             task: text,
             completed: false
         });

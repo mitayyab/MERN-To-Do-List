@@ -9,7 +9,7 @@ export default function TaskList({ taskList, getAllTasks, taskStates, setTaskSta
     const [viewTaskDetails, setViewTaskDetails] = useState([]);
 
     const handleDelete = async (id) => {
-        const res = await axios.delete(`http://localhost:8000/deleteTask/${id}`);
+        const res = await axios.delete(`https://mern-to-do-list-9xqh.onrender.com/deleteTask/${id}`);
 
         if (res.status === 201) {
             getAllTasks();
@@ -18,7 +18,7 @@ export default function TaskList({ taskList, getAllTasks, taskStates, setTaskSta
 
     const handleTaskUpdate = async (id, completed, task) => {
         try {
-            const res = await axios.patch(`http://localhost:8000/updateTask`, {
+            const res = await axios.patch(`https://mern-to-do-list-9xqh.onrender.com/updateTask`, {
                 _id: id,
                 completed: completed,
                 task: task,

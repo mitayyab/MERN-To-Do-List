@@ -18,7 +18,7 @@ export default function App() {
   }, []);
 
   const getAllTasks = async () => {
-    const res = await axios.get(`http://localhost:8000/getAllTasks`);
+    const res = await axios.get(`https://mern-to-do-list-9xqh.onrender.com/getAllTasks`);
     setTaskList(res.data.allTasks);
     const initialTaskStates = res.data.allTasks.map((task) => ({
       disable: true,
