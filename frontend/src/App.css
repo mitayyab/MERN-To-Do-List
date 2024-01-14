@@ -1,0 +1,51 @@
+.bg-image {
+  background-image: url("./assets/images/image.webp");
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute; 
+}
+
+.todo-width {
+  width: max(30%, 300px)
+}
+
+.display-block {
+  display: block;
+  width: 100%;
+}
+
+.list-title {
+  background: rgba(56, 30, 4, 0.25);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 5px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.todo-list {
+  background: rgba( 255, 255, 255, 0.7 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  height: 250px;
+}
+
+.taskDetails-bg {
+  background-color: #f5f2ef;
+}
+
+.no-outline {
+  border: 0;
+  outline: none;
+}
+
+.center-from-top {
+  margin-top: 30%;
+}
