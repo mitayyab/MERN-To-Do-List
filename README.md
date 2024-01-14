@@ -36,7 +36,7 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/mern-todo-list.git
+   git clone https://github.com/mitayyab/MERN-To-Do-List
    ```
 
 2. Change into the project directory:
