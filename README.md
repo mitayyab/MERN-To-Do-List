@@ -9,6 +9,7 @@ To see the application live : https://mern-to-do-list-8ssf.vercel.app/
 ## Table of Contents
 
 - [Features](#features)
+- [How To Use](#how-to-use)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -25,6 +26,13 @@ To see the application live : https://mern-to-do-list-8ssf.vercel.app/
 - Express.js for the backend server.
 - React.js for the frontend user interface.
 - Node.js for server-side scripting.
+
+## How To Use
+- Add Task: Write task and click the + button
+- Show Task Details: Click on the circular icons
+- Show All Tasks: Click on the arrow icon
+- Edit Task: Double click on task make relevent changes and again double click to implement changes
+- Delete Task: Click detele button in task details
 
 ## Prerequisites
 
